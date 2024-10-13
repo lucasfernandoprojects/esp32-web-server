@@ -42,4 +42,4 @@ def connect_wifi(ssid, password, cpu_freq):
     return None
 
 clean_board()
-connect_wifi('NET_2GA2CE5E', 'B3A2CE5E', 80000000)
+connect_wifi('WIFI_NAME', 'WIFI_PASSWORD', 80000000)
