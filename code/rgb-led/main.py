@@ -1,6 +1,9 @@
-# RGB LED controller
-# You can find more information about this project on https://github.com/lucasfernandoprojects
-# Created by Lucas Fernando - check my Youtube channel at https://www.youtube.com/@lucasfernandochannel
+# ========================================================================================
+# Use a web page to control a RGB LED
+# Created on 17 October 2024
+# Created by Lucas Fernando (https://www.youtube.com/@lucasfernandochannel)
+# You are free to use this code the way you want
+# ========================================================================================
 
 def set_up_leds():
     redLed = Pin(18, Pin.OUT)

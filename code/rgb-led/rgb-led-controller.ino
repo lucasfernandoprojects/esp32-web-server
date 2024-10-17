@@ -1,9 +1,16 @@
+// ========================================================================================
+// Use a web page to control a RGB LED
+// Created on 17 October 2024
+// Created by Lucas Fernando (https://www.youtube.com/@lucasfernandochannel)
+// You are free to use this code the way you want
+// ========================================================================================
+
 #include <WiFi.h>
 #include <WebServer.h>
 
 // Replace with your network credentials
-const char* ssid = "NET_2GA2CE5E";       // Replace with your Wi-Fi SSID
-const char* password = "B3A2CE5E"; // Replace with your Wi-Fi password
+const char* ssid = "YOUR_WIFI_NAME";       // Replace with your Wi-Fi SSID
+const char* password = "YOUR_WIFI_PASSWORD"; // Replace with your Wi-Fi password
 
 // Pin definitions for RGB LED
 #define RED_PIN 32

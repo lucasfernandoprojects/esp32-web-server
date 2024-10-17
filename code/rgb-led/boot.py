@@ -1,4 +1,10 @@
-# This file is executed on every boot (including wake-boot from deepsleep)
+# ========================================================================================
+# Use a web page to control a RGB LED
+# This code sets up the initial server parameters
+# Created on 17 October 2024
+# Created by Lucas Fernando (https://www.youtube.com/@lucasfernandochannel)
+# You are free to use this code the way you want
+# ========================================================================================
 
 try:
     import usocket as socket
